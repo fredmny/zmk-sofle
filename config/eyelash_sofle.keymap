@@ -70,7 +70,7 @@
 &kp GRAVE   &kp F1            &kp F2          &kp F3           &kp F4              &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9         &kp F10           &trans
 &trans      &kp GRAVE         &mkp LCLK       &mkp MCLK        &mkp RCLK           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP           &kp HOME       &kp MINUS         &kp EQUAL
 &trans      &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &mmv MOVE_LEFT   &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &trans
-&trans      &trans            &trans          &kp LEFT_BRACE   &RIGHT_BRACE        &trans             &mmv MOVE_RIGHT  &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
+&trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &mmv MOVE_RIGHT  &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
 &kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &mkp LCLK        &trans           &trans           &trans           &trans         &trans
             >;
 
