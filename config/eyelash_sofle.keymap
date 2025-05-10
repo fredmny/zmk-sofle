@@ -69,8 +69,8 @@
             bindings = <
 &kp GRAVE   &kp F1            &kp F2          &kp F3           &kp F4              &kp F5             &kp PAGE_UP      &kp F6           &kp F7           &kp F8           &kp F9         &kp F10           &trans
 &trans      &kp GRAVE         &kp N2          &kp N3           &kp N4              &kp N5             &kp PAGE_DOWN    &kp N6           &kp N7           &kp N8           &kp N9        &kp MINUS         &kp EQUAL
-&kp GRAVE   &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &mmv             &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &kp MINUS
-&trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &mmv             &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
+&kp GRAVE   &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &trans           &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &kp MINUS
+&trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &trans           &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
 &kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &kp ENTER        &trans           &trans           &trans           &trans         &trans
             >;
 
