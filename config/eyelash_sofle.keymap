@@ -71,7 +71,7 @@
 &trans      &kp GRAVE         &kp N2          &kp N3           &kp N4              &kp N5             &kp PAGE_DOWN    &kp N6           &kp N7           &kp N8           &kp N9        &kp MINUS         &kp EQUAL
 &kp GRAVE   &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &mmv             &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &kp MINUS
 &trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &mmv             &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
-&kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &mkp ENTER       &trans           &trans           &trans           &trans         &trans
+&kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &kp ENTER        &trans           &trans           &trans           &trans         &trans
             >;
 
             display-name = "-- 1 --";
@@ -82,7 +82,7 @@
             bindings = <
 &out OUT_BLE    &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans               &trans           &trans           &trans           &trans          &trans           &trans
 &out OUT_USB    &bt BT_CLR      &bt BT_CLR_ALL    &trans          &trans          &trans            &tog 3               &trans           &trans           &trans           &trans          &kp UNDER        &kp PLUS
-&rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_SPI   &rgb_ug RGB_BRI &trans          &trans            &kp C_PREV           &trans           &trans           &trans           &trans          &kp LBRC         &kp RBRC
+&rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_SPI   &rgb_ug RGB_BRI &trans          &trans            &kp C_PREV           &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp LBRC         &kp RBRC
 &rgb_ug RGB_OFF &rgb_ug RGB_EFR &rgb_ug RGB_SPD   &rgb_ug RGB_BRD &trans          &trans            &kp C_NEXT           &trans           &trans           &trans           &trans          &trans           &trans
 &trans          &trans          &trans            &trans          &trans          &trans            &kp C_PP             &trans           &trans           &trans           &trans          &trans
             >;
