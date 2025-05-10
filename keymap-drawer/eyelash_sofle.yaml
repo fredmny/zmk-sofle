@@ -98,7 +98,7 @@ layers:
   - {t: '#', h: '$$mdi:apple-keyboard-option$$'}
   - {t: $, h: '$$mdi:apple-keyboard-control$$'}
   - '%'
-  - '&mmv'
+  - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - {t: '&', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
@@ -111,7 +111,7 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
