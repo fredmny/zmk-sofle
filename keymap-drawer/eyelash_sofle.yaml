@@ -253,9 +253,9 @@ layers:
   - LGUI
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
-  - -- 1 --
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - -- 2 --
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
