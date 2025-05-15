@@ -89,8 +89,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '=', s: +}
   - {t: '`', s: '~'}
   - {t: '!', h: '$$mdi:apple-keyboard-shift$$'}
@@ -153,9 +153,9 @@ layers:
   - {t: CONFIG, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
-  - ''
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - +
   - {t: '0', s: )}
   - {t: '1', h: '$$mdi:apple-keyboard-shift$$', s: '!'}
@@ -171,11 +171,11 @@ layers:
   - {t: ':', h: '$$mdi:apple-keyboard-shift$$'}
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
