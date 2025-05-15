@@ -68,7 +68,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1            &kp F2          &kp F3           &kp F4              &kp F5             &kp PAGE_UP      &kp F6           &kp F7           &kp F8           &kp F9         &kp F10           &trans
-&trans      &kp GRAVE         &kp N2          &kp N3           &kp N4              &kp N5             &kp PAGE_DOWN    &kp N6           &kp N7           &kp N8           &kp N9        &kp MINUS         &kp EQUAL
+&trans      &kp GRAVE         &trans          &trans           &trans              &trans             &kp PAGE_DOWN    &trans           &kp MINUS        &trans           &kp LBRC       &kp RBRC          &kp EQUAL
 &kp GRAVE   &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &trans           &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &kp MINUS
 &trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &trans           &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
 &kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &kp ENTER        &trans           &trans           &trans           &trans         &trans
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&out OUT_BLE    &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans               &trans           &trans           &trans           &trans          &trans           &trans
-&out OUT_USB    &bt BT_CLR      &bt BT_CLR_ALL    &trans          &trans          &trans            &tog 3               &trans           &trans           &trans           &trans          &kp UNDER        &kp PLUS
-&rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_SPI   &rgb_ug RGB_BRI &trans          &trans            &kp C_PREV           &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp LBRC         &kp RBRC
-&rgb_ug RGB_OFF &rgb_ug RGB_EFR &rgb_ug RGB_SPD   &rgb_ug RGB_BRD &trans          &trans            &kp C_NEXT           &trans           &trans           &trans           &trans          &trans           &trans
-&trans          &trans          &trans            &trans          &trans          &trans            &kp C_PP             &trans           &trans           &trans           &trans          &trans
+&trans          &trans          &trans            &trans          &trans          &trans            &tog 3         &trans           &trans           &trans           &trans          &trans             &trans
+&trans          &kp TILDE       &trans            &trans          &trans          &trans            &tog 4         &trans           &kp UNDER        &kp              &kp LBKT        &kp RBKT           &kp PLUS
+&kp N0          &hm LSHIFT N1   &hm LGUI N2       &hm LALT N3     &hm LCTRL N4    &kp N5            &trans         &kp N6           &hm RCTRL N7     &hm LALT N8      &hm RGUI N9     &hm RSHIFT COLON   &kp DOUBLE_QUOTES
+&trans          &trans          &trans            &trans          &trans          &trans            &trans         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp QMARK          &trans
+&kp C_MUTE      &trans          &trans            &trans          &trans          &trans            &trans         &trans           &trans           &trans           &trans          &trans
             >;
 
             display-name = "-- 2 --";
@@ -101,6 +101,19 @@
             >;
 
             display-name = "GAME";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        layer_4 {
+            bindings = <
+&out OUT_BLE    &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans               &trans           &trans           &trans           &trans          &trans           &trans
+&out OUT_USB    &bt BT_CLR      &bt BT_CLR_ALL    &trans          &trans          &trans            &trans               &trans           &trans           &trans           &trans          &kp UNDER        &kp PLUS
+&rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_SPI   &rgb_ug RGB_BRI &trans          &trans            &kp C_PREV           &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp LBRC         &kp RBRC
+&rgb_ug RGB_OFF &rgb_ug RGB_EFR &rgb_ug RGB_SPD   &rgb_ug RGB_BRD &trans          &trans            &kp C_NEXT           &trans           &trans           &trans           &trans          &trans           &trans
+&trans          &trans          &trans            &trans          &trans          &trans            &kp C_PP             &trans           &trans           &trans           &trans          &tog 4
+            >;
+
+            display-name = "CONFIG";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
