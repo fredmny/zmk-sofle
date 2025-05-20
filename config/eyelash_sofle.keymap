@@ -44,7 +44,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             quick-tap-ms = <150>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
     };
@@ -83,7 +83,7 @@
 &trans          &trans          &trans            &trans          &trans          &trans            &tog 3         &trans           &trans           &trans           &trans          &trans             &trans
 &trans          &kp TILDE       &trans            &trans          &trans          &trans            &tog 4         &trans           &kp UNDER        &trans           &kp LBRC        &kp RBRC           &kp PLUS
 &kp N0          &hm LSHIFT N1   &hm LGUI N2       &hm LALT N3     &hm LCTRL N4    &kp N5            &trans         &kp N6           &hm RCTRL N7     &hm LALT N8      &hm RGUI N9     &hm RSHIFT COLON   &kp DOUBLE_QUOTES
-&trans          &kp LC(SPACE)   &trans            &trans          &trans          &kp LC(SPACE)     &trans         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp QMARK          &trans
+&trans          &kp LC(SPACE)   &kp C_PREV        &kp C_PLAY      &kp C_NEXT      &kp LC(SPACE)     &trans         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp QMARK          &trans
 &kp C_MUTE      &trans          &trans            &trans          &trans          &trans            &trans         &trans           &trans           &trans           &trans          &trans
             >;
 
