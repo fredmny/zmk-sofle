@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
+// #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600 (unused: &mmv isn't bound to any key)
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
 #include <input/processors.dtsi>
@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
+// &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; }; // unused: &mmv isn't bound to any key
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
@@ -21,11 +21,11 @@
     delay-ms = <0>;                   // 0
 };
 
-&mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
-    trigger-period-ms = <16>;
-};
+// &mmv { // unused: not bound to any key
+//     time-to-max-speed-ms = <500>;
+//     acceleration-exponent = <1>;
+//     trigger-period-ms = <16>;
+// };
 
 
 / {
@@ -87,7 +87,7 @@
 
         layer_2 {
             bindings = <
-&trans          &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans               &trans           &trans           &trans           &trans          &trans           &kp DEL
+&trans          &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &tog 3               &trans           &trans           &trans           &trans          &trans           &kp DEL
 &trans          &kp TILDE       &trans            &trans          &trans          &trans            &tog 4         &trans           &kp UNDER        &trans           &kp LBRC        &kp RBRC           &kp PLUS
 &kp N0          &hm LSHIFT N1   &hm LGUI N2       &hm LALT N3     &hm LCTRL N4    &kp N5            &trans         &kp N6           &hm RCTRL N7     &hm LALT N8      &hm RGUI N9     &hm RSHIFT COLON   &kp DOUBLE_QUOTES
 &trans          &kp LC(SPACE)   &kp C_PREV        &kp C_PLAY      &kp C_NEXT      &kp LC(SPACE)     &trans         &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW &kp QMARK          &trans
