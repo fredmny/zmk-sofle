@@ -65,7 +65,7 @@
 &kp TAB     &kp Q           &kp W         &kp E         &kp R         &kp T    &kp DOWN_ARROW   &kp Y       &kp U         &kp I         &kp O            &kp P              &kp BSLH
 &td0        &hm LSHIFT A    &hm LGUI S    &hm LALT D    &hm LCTRL F   &kp G    &kp LEFT_ARROW   &kp H       &hm RCTRL J   &hm LALT K    &hm RGUI L       &hm RSHIFT SEMI    &kp APOS
 &trans      &kp Z           &kp X         &kp C         &kp V         &kp B    &kp RIGHT_ARROW  &kp N       &kp M         &kp COMMA     &kp DOT          &kp FSLH           &kp ENTER
-&kp C_MUTE  &trans          &trans        &kp ESC       &kp SPACE     &mo 1    &kp ENTER        &mo 2       &kp SPACE     &kp ENTER     &trans           &kp DELETE
+&kp C_MUTE  &kp LCTRL          &kp LGUI        &kp ESC       &kp SPACE     &mo 1    &kp ENTER        &mo 2       &kp SPACE     &kp ENTER     &kp LALT           &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -78,7 +78,7 @@
 &trans      &kp GRAVE         &trans          &trans           &trans              &trans             &kp PAGE_DOWN    &trans           &kp MINUS        &trans           &kp LBKT       &kp RBKT          &kp EQUAL
 &kp GRAVE   &hm LSHIFT EXCL   &hm LGUI AT     &hm LALT HASH    &hm LCTRL DOLLAR    &kp PERCENT        &trans           &kp CARET        &hm RCTRL AMPS   &hm LALT ASTRK   &hm RGUI LPAR  &hm RSHIFT RPAR   &kp MINUS
 &trans      &trans            &trans          &kp LEFT_BRACE   &kp RIGHT_BRACE     &trans             &trans           &trans           &kp LBKT         &kp RBKT         &kp F11        &kp F12           &trans
-&kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &kp ENTER        &trans           &trans           &trans           &trans         &trans
+&kp C_MUTE  &trans            &trans          &trans           &trans              &trans             &kp ENTER        &kp RALT           &trans           &trans           &trans         &trans
             >;
 
             display-name = "-- 1 --";
@@ -87,6 +87,7 @@
 
         layer_2 {
             bindings = <
+&trans          &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans               &trans           &trans           &trans           &trans          &trans           &trans
 &trans          &trans          &trans            &trans          &trans          &trans            &tog 3         &trans           &trans           &trans           &trans          &trans             &kp DEL
 &trans          &kp TILDE       &trans            &trans          &trans          &trans            &tog 4         &trans           &kp UNDER        &trans           &kp LBRC        &kp RBRC           &kp PLUS
 &kp N0          &hm LSHIFT N1   &hm LGUI N2       &hm LALT N3     &hm LCTRL N4    &kp N5            &trans         &kp N6           &hm RCTRL N7     &hm LALT N8      &hm RGUI N9     &hm RSHIFT COLON   &kp DOUBLE_QUOTES
