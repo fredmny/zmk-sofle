@@ -7,5 +7,6 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Pinned alongside config/west.yml's zmk revision (pre-Zephyr-4.1 board format).
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@abb64ba316c29caddc49727ca2cac2f0ed5970c7
 

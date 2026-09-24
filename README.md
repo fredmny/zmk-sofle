@@ -27,6 +27,8 @@ This repo is a standard ZMK user config, built via the GitHub Actions workflow i
 
 See the ZMK docs for the full flow: [Flashing Firmware](https://zmk.dev/docs/user-setup#flashing-firmware) and [Customizing / editing the keymap](https://zmk.dev/docs/customization).
 
+> **Note:** `config/west.yml` and `.github/workflows/build.yml` both pin ZMK to a fixed commit (just before its Zephyr 4.1 board-format change) instead of tracking `main`, because our custom `eyelash_sofle` board hasn't been migrated to that new format yet. To upgrade, migrate `boards/arm/eyelash_sofle` to the Zephyr 4.1 board.yml/HWMv2 layout, then bump both pinned refs back to `main`.
+
 # Sofle Keymap
 
 
